@@ -1,0 +1,13 @@
+.hero{
+    min-height: 100vh;
+    position: fixed;
+    // top: 0;
+}
+
+.searchRes{
+    width: 100%;
+    min-height: 110vh;
+    background: url();
+    transform: translateY(calc(100vh - 10rem));
+    border-radius: 6rem 6rem 0 0;
+}
