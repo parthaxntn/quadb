@@ -1,0 +1,47 @@
+.summary{
+    background: rgb(216, 216, 216);
+    min-height: 100vh;
+
+    .container:first-child{
+        background: rgb(255, 255, 255);
+        box-shadow: -3px -3px 7px rgb(255, 255, 255), 3px 3px 7px rgba(0, 0, 0, 0.422);
+        border-radius: 15px;
+        border: 1px solid rgb(177, 177, 177);
+        min-height: 100vh;
+
+        .heading{
+            display: flex;
+            align-items: center;
+        }
+
+        .content{
+            display: flex;
+            .metadata{
+                width: 60%;
+                padding: 2rem;
+                flex-shrink: 0;
+                .genre{
+                    font-size: 0.9rem;
+                }
+
+                .book{
+                    background-color: burlywood;
+                    color: black;
+                    border-radius: 5px;
+                    padding: 0.1rem 0.5rem;
+                    border: none;
+                }
+
+                .summary_text{
+                    font-size: 1.2rem;
+                }
+            }
+
+            .image{
+                width: 30%;
+                flex-shrink: 0;
+                margin: auto;
+            }
+        }
+    }
+}
